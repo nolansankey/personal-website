@@ -45,13 +45,14 @@ body {
     background-blend-mode: overlay;
 	background-image: url("../images/snowy-trees.jpg"); 
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 100%;
+    background-size: 120%;
+    height: 80%;
     text-align: center;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    margin: 100px 0 0 0;
 }
 
 .intro-section h1 {
