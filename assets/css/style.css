@@ -13,7 +13,7 @@ body {
 }
 
 .navbar {
-    background-color: #2C493F;
+    background-color: #3b674b; /*#25591f; #2C493F;*/
 	color: #fff;
     padding: 25px 40px;
     height: 100px;
@@ -81,7 +81,7 @@ body {
 }
 
 .intro-section h1, .intro-section h3, .intro-section h4 {
-    color: #2C493F;
+    color: #3b674b; /*#2C493F;*/
 }
 
 .about-head, .proj-head, .contact-head {
@@ -90,7 +90,7 @@ body {
 	padding-bottom: 20px;
     font-weight: 700;
     text-decoration: underline;
-    background-color: #3E6658;
+    background-color: #705e3f; /*#3E6658;*/
 	color: #FFF;
 }
 
@@ -99,15 +99,41 @@ body {
 }
 
 .about-content {
-	padding-bottom: 60px;
-	padding-top: 60px;
+	padding-bottom: 40px;
+	padding-top: 20px;  
 }
 
 .about-content p {
 	text-align: center;
 	font-size: 20px;
 	font-weight: 300;
-	padding: 0 5%;
+	padding: 0 5%; 
+    margin: auto;
+    max-width: 2000px;
+}
+
+.bio-img {
+    padding: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nolan-img {
+    float: left;
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    padding-bottom: 20px;
+}
+
+#jump-img {
+    float: left;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    padding-top: 20px;
 }
 
 .proj-content {
@@ -137,8 +163,8 @@ body {
 }
 
 .img-space {
-    width: 550px;
-    height: 550px;
+    width: 600px;
+    height: 600px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -146,8 +172,8 @@ body {
 }
 
 .img-space div {
-    width:  550px;
-    height: 550px;
+    width:  600px;
+    height: 600px;
     padding: 50px;
     position: absolute;
     display: flex;
