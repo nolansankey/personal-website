@@ -57,14 +57,15 @@ body {
 }
 
 .intro-section h1 {
-    width: 700px;
+    max-width: 700px;
     font-size: 52px;
     font-weight: 700;
     padding: 40px 0 40px 0;
     margin: 0 10%;
+    
 }
 .intro-section h3 {
-    width: 700px;
+    max-width: 700px;
     font-size: 36px;
     font-weight: 700;
     padding: 20px 0 40px 0;
@@ -72,7 +73,7 @@ body {
     line-height: 0%;
 }
 .intro-section h4 {
-    width: 700px;
+   max-width: 700px;
     font-size: 28px;
     font-weight: 700;
     padding: 20px 0 40px 0;
@@ -247,25 +248,9 @@ body {
 }
 
 @media (max-width: 766px) {
-    .stats-section {
-        text-align: center;
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;
-        padding: 50px 0 0px 0;
-        height: 950px;
-        margin-top: -20%;
+    .navbar-header {
+        display: none;
     }
-
-    .stats-section > iframe {
-        width: 240%;
-        height: 950px;
-        -moz-transform: scale(0.4, 0.4); 
-        -webkit-transform: scale(0.4, 0.4); 
-        -o-transform: scale(0.4, 0.4);
-        -ms-transform: scale(0.4, 0.4);
-        transform: scale(0.4, 0.4); 
-        margin-top: -70%;
-    }
+    
+    
 }
